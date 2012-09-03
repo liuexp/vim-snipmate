@@ -22,7 +22,7 @@ let s:c.read_snippets_cached = get(s:c, 'read_snippets_cached', {'func' : functi
 " TODO add documentation to doc/*
 let s:c.scope_aliases = get(s:c, 'scope_aliases', {})
 let s:c.scope_aliases.objc = get(s:c.scope_aliases, 'objc', 'c')
-let s:c.scope_aliases.cpp = get(s:c.scope_aliases, 'cpp', 'c')
+let s:c.scope_aliases.cpp = get(s:c.scope_aliases, 'cpp', 'cpp11')
 let s:c.scope_aliases.cu = get(s:c.scope_aliases, 'cu', 'c')
 let s:c.scope_aliases.cs = get(s:c.scope_aliases, 'cs','c')
 let s:c.scope_aliases.xhtml = get(s:c.scope_aliases, 'xhtml', 'html')
